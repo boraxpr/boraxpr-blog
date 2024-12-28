@@ -4,9 +4,11 @@
 @tailwind utilities;
 
 html,
-body,
-.p-component {
+body {
   @apply font-bebos;
-  height: 100%;  /* Ensure the entire viewport height is used */
-  margin: 0;     /* Remove default margin */
+  height: 100%;
+}
+
+body {
+  margin: 0;
 }
